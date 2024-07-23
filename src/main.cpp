@@ -18,6 +18,7 @@
 // MISO -> D6
 // MOSI -> D7
 // TFT DC -> D2
+// TFT RESET -> HIGH (3.3 V)
 // CS (Display) -> D8
 // CS (SD card) -> D3
 // SD card SPI uses the same pins (Hardware SPI)
