@@ -12,6 +12,16 @@
 // (not 'bitbang') and must be wired to specific pins (e.g. for Arduino Uno,
 // MOSI = pin 11, MISO = 12, SCK = 13). Other pins are configurable below.
 
+// Wiring details for Node MCU 1.0
+// SPI:
+// CLK -> D5
+// MISO -> D6
+// MOSI -> D7
+// TFT DC -> D2
+// CS (Display) -> D8
+// CS (SD card) -> D3
+// SD card SPI uses the same pins (Hardware SPI)
+
 #include <Adafruit_GFX.h>         // Core graphics library
 #include <Adafruit_ILI9341.h>     // Hardware-specific library
 #include <SdFat.h>                // SD card & FAT filesystem library
